@@ -1,0 +1,9 @@
+TemperatureMonitor_Code$ javac *.java
+
+TemperatureMonitor_Code$ rmiregistry &
+
+new terminal
+TemperatureMonitor_Code$ java TemperatureSensorServer
+
+new terminal
+TemperatureMonitor_Code$ java TemperatureMonitor 
