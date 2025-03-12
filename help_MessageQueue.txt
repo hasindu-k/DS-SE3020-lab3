@@ -1,0 +1,10 @@
+You have already downloaded apache-activemq-6.1.6-bin.tar.gz. If not, you can download it from the Apache ActiveMQ website.
+
+Navigate to the bin directory of the extracted ActiveMQ folder:
+cd /opt/apache-activemq-6.1.6/bin
+
+Start ActiveMQ by running the following command:
+./activemq start
+
+Once ActiveMQ is running, you can access the admin console by opening a web browser and navigating to:
+http://localhost:8161/
